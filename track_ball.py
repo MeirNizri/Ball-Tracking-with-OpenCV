@@ -75,7 +75,7 @@ while True:
 
 	# update the list of tracked points and velocities
 	if center:
-		pts.append(center)	
+		pts.append(center)
 		if len(pts) > 1:
 			velocities_x.append((pts[-1][0] - pts[-2][0]) * fps)
 			velocities_y.append((pts[-1][1] - pts[-2][1]) * fps)
